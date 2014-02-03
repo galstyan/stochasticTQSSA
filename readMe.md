@@ -2,9 +2,9 @@ This package contains python and Matlab files that simulate the stochastic Micha
 
 The Michaelis-Menten reaction is given by the following scheme:
 
-      k1
-E + S <-> C -> E + P
-      km1   k2
+E + S -> C (rate k1)
+C -> E + S (rate km1)
+C -> E + P (rate k2)
 
 1. Run 'launch.py' file
 
